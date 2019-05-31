@@ -35,6 +35,12 @@ header {
 
 #skills {
     background-color: gray;
+    
+}
+
+#skills ul {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
 }
 
 footer {
