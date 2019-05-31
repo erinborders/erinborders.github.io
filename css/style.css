@@ -52,6 +52,7 @@ header, article {
 
 #personalbrand p {
     font-family: 'Roboto Slab', serif;
+    font-size: 50px;
 }
 
 #skills {
@@ -74,7 +75,7 @@ ul {
 }
 
 #skills li {
-    background-color: gray;
+    background-color: rgb(204, 124, 204);
     padding: 50px;
     border-radius: 12px;
     margin: 0 30px;
