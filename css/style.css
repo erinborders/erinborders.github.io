@@ -28,6 +28,9 @@ header {
 
 #personalbrand {
     background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 #skills {
