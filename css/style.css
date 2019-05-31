@@ -1,5 +1,7 @@
 body {
-    background-color: azure;
+    background: linear-gradient(bottom, rgba(0,0,200,.4), rgba(0,0,150,.8));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,200,.4), rgba(0,0,150,.8));
+  background: -moz-linear-gradient(bottom, rgba(0,0,200,.4), rgba(0,0,150,.8));
     margin: 10px 30px;
 }
 
