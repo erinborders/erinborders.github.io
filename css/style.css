@@ -58,10 +58,6 @@ ul {
     
 }
 
-#skills div {
-    
-}
-
 #skills li {
     background-color: gray;
     padding: 50px;
@@ -79,6 +75,19 @@ ul {
     height: 50vh;
     margin: 20px 0;
 }
+
+#work img {
+    max-width: 20%;
+    max-height: 20%;
+    border-radius: 12px;
+}
+
+/* #memorygame {
+    height: 200px;
+  background-size: cover;
+  background-image: url("memorygame.png");
+  background-size: cover;
+} */
 
 footer {
     background-color: cyan;
