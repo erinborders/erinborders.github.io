@@ -48,6 +48,10 @@ ul {
     grid-template-columns: auto auto auto auto auto;
 }
 
+#skills h3 {
+    text-align: center;
+}
+
 footer {
     background-color: cyan;
     text-align: center;
