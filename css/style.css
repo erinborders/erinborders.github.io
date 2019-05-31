@@ -96,14 +96,20 @@ ul {
 
 #work {
     text-align: center;
-    height: 60vh;
+    height: 100vh;
     margin: 20px 0;
+}
+
+#work div {
+    margin: 50px 0;
+    padding-top: 10px;
 }
 
 #work img {
     max-width: 20%;
     max-height: 20%;
     border-radius: 12px;
+    
 }
 
 /* #memorygame {
@@ -114,7 +120,13 @@ ul {
 } */
 
 footer {
-    /* background-color: cyan; */
     text-align: center;
-    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
+
+button[type="button"] {
+    background-color: rgb(204, 124, 204);
+    color: lightblue;
+    border: 1px solid rgb(192, 117, 192);
+  }
