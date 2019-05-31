@@ -27,6 +27,7 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
+    margin: 20px 0;
 }
 
 #personalbrand {
@@ -41,7 +42,7 @@ header {
 #skills {
     background-color: white;
     height: 50vh;
-    
+    margin: 20px 0;
 }
 
 ul {
@@ -76,9 +77,11 @@ ul {
 #work {
     text-align: center;
     height: 50vh;
+    margin: 20px 0;
 }
 
 footer {
     background-color: cyan;
     text-align: center;
+    margin: 20px 0;
 }
