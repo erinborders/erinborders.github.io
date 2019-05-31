@@ -32,11 +32,12 @@ header {
     display: flex;
     flex-direction: column;
     text-align: center;
+    height: 50vh;
 }
 
 #skills {
     background-color: white;
-    
+    height: 50vh;
     
 }
 
@@ -62,6 +63,7 @@ ul {
 
 #work {
     text-align: center;
+    height: 50vh;
 }
 
 footer {
