@@ -50,6 +50,10 @@ header, article {
     /* border-radius: 12px; */
 }
 
+#personalbrand p {
+    font-family: 'Roboto Slab', serif;
+}
+
 #skills {
     /* background-color: white; */
     height: 50vh;
