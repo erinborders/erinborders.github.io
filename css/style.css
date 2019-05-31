@@ -6,6 +6,15 @@ nav {
     background-color: lightcyan;
 }
 
+#socialmedia {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#socialmedia a {
+    padding: 10px;
+}
+
 header {
     background-color: aliceblue;
 }
@@ -20,4 +29,8 @@ header {
 
 #skills {
     background-color: gray;
+}
+
+footer {
+    background-color: cyan;
 }
