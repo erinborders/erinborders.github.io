@@ -38,6 +38,10 @@ header {
     
 }
 
+ul {
+    list-style: none;
+}
+
 #skills ul {
     display: grid;
     grid-template-columns: auto auto auto auto auto;
