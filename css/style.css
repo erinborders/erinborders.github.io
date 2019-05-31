@@ -2,10 +2,22 @@ body {
     background-color: azure;
 }
 
-
+nav {
+    background-color: lightcyan;
+}
 
 header {
     background-color: aliceblue;
 }
 
+#intro {
+    background-color: white;
+}
 
+#personalbrand {
+    background-color: aquamarine;
+}
+
+#skills {
+    background-color: gray;
+}
