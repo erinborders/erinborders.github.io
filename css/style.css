@@ -21,6 +21,9 @@ header {
 
 #intro {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 #personalbrand {
