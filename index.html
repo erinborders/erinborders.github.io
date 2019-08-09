@@ -121,6 +121,69 @@
     </div>
   </section>
 
+   <!-- Horror Jeopardy Modal -->
+   <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Atlanta Pop Ups Modal -->
+   <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fashion Vera Modal -->
+      <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalScrollableTitle">Modal title</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
   <!-- Portfolio Section -->
   <section id="portfolio">
       <!-- center and add a margin -->
@@ -130,8 +193,8 @@
     <div class="container-fluid p-0">
       <div class="row no-gutters">
         <div class="col-lg-4 col-sm-6">
-                <!-- href="img/portfolio/fullsize/1.jpg" -->
-          <a class="portfolio-box" >
+            <!-- remove carousel thing -->
+          <a class="portfolio-box" href="#exampleModalScrollable"  role="button" class="btn" data-toggle="modal" >
             <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
@@ -142,12 +205,9 @@
               </div>
             </div>
           </a>
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
-                Launch demo modal
-              </button>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+          <a class="portfolio-box" href="#exampleModalScrollable"  role="button" class="btn" data-toggle="modal">
             <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
@@ -159,8 +219,9 @@
             </div>
           </a>
         </div>
+        </div>
         <div class="col-lg-4 col-sm-6">
-          <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+          <a class="portfolio-box" href="#exampleModalScrollable"  role="button" class="btn" data-toggle="modal">
             <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
             <div class="portfolio-box-caption">
               <div class="project-category text-white-50">
@@ -172,30 +233,6 @@
             </div>
           </a>
         </div>
-
-        <!-- Modal test -->
-        <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-                <div class="modal-dialog" role="document">
-                  <div class="modal-content">
-                    <div class="modal-header">
-                      <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div class="modal-body">
-                      ...
-                    </div>
-                    <div class="modal-footer">
-                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      <button type="button" class="btn btn-primary">Save changes</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-
-
 
         <!-- <div class="col-lg-4 col-sm-6">
           <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
@@ -287,15 +324,13 @@
 
   <!-- Bootstrap core JavaScript -->
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
-  <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
-  <!-- <script src="node_modules/bootstrap/" -->
-  <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+  <script src="node_modules/bootstrap/js/bootstrap.bundle.min.js"></script>
+ 
 
   <!-- Plugin JavaScript -->
   <script src="node_modules/jquery.easing/jquery.easing.min.js"></script>
   <!-- <script src="vendor/jquery-easing/jquery.easing.min.js"></script> -->
-  <script src="node_modules/magnific-popup/magnific-popup.jquery.json"></script>
-  <!-- <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script> -->
+  <script src="node_modules/magnific-popup/jquery.magnific-popup.min.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/creative.min.js"></script>
